@@ -9,7 +9,7 @@ public class HelloWorldController : Controller
     // GET: /HelloWorld/
     public string Index()
     {
-        return "This is my default action...";
+        return "This is my Default Hello world page";
     }
     // 
     // GET: /HelloWorld/Welcome/ 
