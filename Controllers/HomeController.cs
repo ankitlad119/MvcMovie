@@ -14,8 +14,10 @@ public class HomeController : Controller
     }
 
     public IActionResult Index()
-    {
-        string aabc = "sas";
+    {   
+         string imageUrl = "https://aspstoragedata.blob.core.windows.net/myfirststorage/test1.jpg";
+         ViewBag.ImageUrl = imageUrl; 
+
         return View();
     }
 
